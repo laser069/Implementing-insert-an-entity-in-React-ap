@@ -36,7 +36,7 @@ const Dashboard = () => {
     <div className="dashboard">
       <header className="dashboard-header">
         <h1>Movie Collection</h1> 
-        <Link to='/add-movie'><button>Ass Movie</button> </Link>
+        <Link to='/add-movie'><button>Add Movie</button> </Link>
       </header>
       <div className="movie-list">
         {movies.map((movie) => (
